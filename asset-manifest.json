@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e8f791a.css",
+    "main.js": "/static/js/main.ec02fd9c.js",
+    "static/media/Zazil.jpg": "/static/media/Zazil.08bfdd55fdf701e63b02.jpg",
+    "static/media/Verqor.jpg": "/static/media/Verqor.cea1fd822b790984c5fc.jpg",
+    "index.html": "/index.html",
+    "main.9e8f791a.css.map": "/static/css/main.9e8f791a.css.map",
+    "main.ec02fd9c.js.map": "/static/js/main.ec02fd9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e8f791a.css",
+    "static/js/main.ec02fd9c.js"
+  ]
+}

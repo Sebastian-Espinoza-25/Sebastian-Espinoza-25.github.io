@@ -1,0 +1,73 @@
+.core {
+    background: linear-gradient(-45deg, #1e1e1e, #151515, #1c1c1c, #101010);
+    background-size: 300% 300%;
+    animation: gradientBG 16s ease infinite;
+  
+    padding: 6rem 1.5rem 4rem;
+    text-align: center;
+  }
+  
+  .core-content {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .core h1 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .core h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #bbbbbb;
+    margin-bottom: 1.5rem;
+  }
+  
+  .core p {
+    font-size: 1rem;
+    color: #cccccc;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+  }
+  
+  .core-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .btn {
+    padding: 0.65rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+    cursor: pointer;
+  }
+  
+  @keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
